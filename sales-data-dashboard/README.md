@@ -1,65 +1,125 @@
-# Sales Data Dashboard | Power BI
+# 📊 Sales Data Analysis Dashboard | Power BI
 
-An end-to-end sales analytics project built in Microsoft Power BI. The dashboard is designed to turn sales data into an interactive view of business performance and support data-driven decision-making.
+An end-to-end sales analysis project built using Microsoft Power BI to transform sales data into an interactive business dashboard and actionable insights.
 
-## Dashboard Preview
+## 📌 Project Overview
 
-Add a screenshot of the completed dashboard to `screenshots/` and update the image path below.
+The **Sales Data Analysis Dashboard** provides an interactive view of business performance through revenue, gross profit, gross margin, order volume, product categories, sales channels, and country-wise revenue.
 
-<!-- Replace with your screenshot filename, for example: ![Sales Dashboard](screenshots/sales-dashboard.png) -->
+The project demonstrates how sales data can be presented through visual analytics to support data-driven decision-making.
 
-## Project Objectives
+## 🖼️ Dashboard Preview
 
-- Explore sales performance through an interactive dashboard.
-- Summarize key business metrics and trends.
-- Compare performance across relevant categories, products, regions, or time periods available in the dataset.
-- Present findings in a clear, recruiter-friendly format.
+![Executive Sales Dashboard](screenshots/Screenshot%202026-10-27%20173712.png)
 
-## Tools Used
+## 🎯 Project Objectives
 
-- Microsoft Power BI
-- Power Query (if used for data cleaning/transformation)
-- DAX (if used for measures/calculations)
+- Monitor overall sales and profitability.
+- Analyze revenue and profit trends across months.
+- Identify high-performing and low-performing countries by revenue.
+- Compare sales channel contributions.
+- Evaluate product category profitability.
+- Identify top-selling products by units sold.
 
-> Keep only the tools and techniques you actually used in your project.
+## 🛠️ Tools & Technologies
 
-## Repository Structure
+- **Microsoft Power BI** — Interactive dashboard and data visualization
+- **Microsoft Excel** — Source dataset
+- **Power Query** — Data transformation, if used
+- **DAX** — Measures and calculations, if used
+
+## 📈 Key Performance Indicators (KPIs)
+
+| KPI | Dashboard Value |
+|---|---:|
+| Total Revenue | 645.22K |
+| Total Gross Profit | 296.38K |
+| Gross Margin | 45.94% |
+| Total Quantity Sold | 6,698 |
+| Total Orders | 2,707 |
+
+## 🔍 Key Business Insights
+
+### 1. Revenue and Profitability
+- Total revenue is **645.22K**, with gross profit of **296.38K**.
+- The dashboard reports a gross margin of **45.94%**.
+
+### 2. Country-wise Revenue
+- The United Kingdom leads the displayed country ranking with approximately **74K** in revenue.
+- Germany follows with approximately **70K**, making it another strong revenue contributor.
+- Among the displayed bottom five countries, Ireland has the lowest revenue at approximately **17K**.
+
+### 3. Sales Channel Performance
+- **Online Store:** 260.31K (40.34%)
+- **Corporate:** 179.63K (27.84%)
+- **Retail Partners:** 112.45K (17.43%)
+- **Marketplace:** 92.84K (14.39%)
+
+The Online Store is the largest revenue contributor among the four displayed sales channels.
+
+### 4. Product Category Profitability
+- Camping contributes approximately **84.95K** in gross profit.
+- Hiking contributes approximately **81.11K**.
+- Fitness contributes approximately **28.46K**, the lowest among the displayed categories.
+
+### 5. Top-Selling Products
+Based on the units sold shown in the dashboard:
+- Insulated Bottle — 181 units
+- Trail Boots — 179 units
+- Summit Backpack 45L — 176 units
+- Compact Sleeping Bag — 158 units
+- Trail Bike Light — 152 units
+
+### 6. Monthly Revenue Trend
+The displayed monthly revenue values range from approximately **70K in June** to **36K in February**. The month labels in the visual are not arranged chronologically, so this comparison should not be interpreted as a chronological trend until the month sorting is verified.
+
+## 🎬 Dashboard Animation
+
+Watch the animated walkthrough of the Sales Data Dashboard:
+
+▶️ [**Watch Sales Data Dashboard Animation (MP4)**](Animations/Sales%20Data%20Dashboard%20Animations.mp4)
+
+## ✨ Dashboard Features
+
+- Interactive slicers for Quarter, Month Name, Product Category, and Country
+- KPI cards for revenue, gross profit, margin, quantity, and orders
+- Monthly revenue and gross profit comparison
+- Top and bottom country revenue rankings
+- Sales channel revenue comparison
+- Product category gross profit analysis
+- Top-selling product comparison
+
+## 📂 Project Structure
 
 ```text
 sales-data-dashboard/
+├── Animations/
+│   └── Sales Data Dashboard Animations.mp4
 ├── dashboard/
 │   └── Sales Data Dashboard.pbix
 ├── data/
-│   └── README.md
+│   └── Sales_Data.xlsx
 ├── screenshots/
-│   └── README.md
-├── .gitignore
+│   └── Screenshot 2026-10-27 173712.png
 └── README.md
 ```
 
-## How to View the Dashboard
+## 🚀 How to Use
 
-1. Download `dashboard/Sales Data Dashboard.pbix` from this repository.
-2. Open it using Microsoft Power BI Desktop.
-3. If Power BI asks for the source data, update the data source path or load the permitted dataset.
-4. Use the report filters and slicers to explore the dashboard.
+1. Open the `dashboard` folder in this repository.
+2. Download `Sales Data Dashboard.pbix`.
+3. Open the file using Microsoft Power BI Desktop.
+4. Use the slicers and visuals to explore sales performance.
+5. Refer to the animation video for a walkthrough of the dashboard.
 
-## Key KPIs and Insights
+## 👨‍💻 Author
 
-Add the exact KPIs and findings from your report here. Do not publish estimates or claims that are not visible in the dashboard. Suggested format:
+**Hirdesh Yadav**
 
-- **KPI:** [Name] — [what it measures]
-- **Insight 1:** [A finding supported by the dashboard]
-- **Insight 2:** [A comparison or trend supported by the dashboard]
-- **Business recommendation:** [A practical action based on the findings]
-
-## Data Source
-
-Describe the dataset, its source, date range, and row count here if known. Only upload the raw data if you have permission to redistribute it and it contains no confidential or personal information. If the data cannot be shared, document the source and provide a small safe sample or screenshots instead.
-
-## Author
-
-**Hirdesh Yadav**  
 Aspiring Data Analyst | Power BI | SQL | Excel | Python
 
-Connect with me on [LinkedIn](https://www.linkedin.com/) and explore my other projects on [GitHub](https://github.com/). Replace these links with your actual profile URLs.
+🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/hirdesh-yadav-1244a6337/)
+
+---
+
+*This project is intended for learning, portfolio development, and demonstrating practical data analytics and visualization skills.*
